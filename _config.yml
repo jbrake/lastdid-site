@@ -1,0 +1,35 @@
+title: LastDid
+description: "Track what you've done, not what you need to do. A mindful activity tracker for iOS and Android."
+url: "https://jbrake.github.io"
+baseurl: "/lastdid-site"
+
+# SEO
+tagline: "Mindful activity tracking"
+author: Brake Networks
+lang: en
+
+# Build
+markdown: kramdown
+permalink: /blog/:title/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Social / SEO defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      image: /assets/images/og-default.png
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-default.png
+
+# Exclude dev files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

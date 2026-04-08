@@ -1,0 +1,24 @@
+---
+layout: default
+title: "Blog — LastDid"
+description: "Ideas and inspiration for tracking life's rhythms with LastDid."
+---
+
+<div class="blog-page">
+    <h1>Blog</h1>
+    <p class="subtitle">Ideas for tracking life's rhythms — without guilt.</p>
+
+    <ul class="blog-list">
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url | relative_url }}">
+                <h3>{{ post.title }}</h3>
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+                {% if post.excerpt_text %}
+                <p>{{ post.excerpt_text }}</p>
+                {% endif %}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
