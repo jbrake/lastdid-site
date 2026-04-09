@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jbrake.github.io/lastdid-site/sitemap.xml

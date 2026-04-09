@@ -4,6 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% seo %}
+    {% if page.url == "/" %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "LastDid",
+        "operatingSystem": "iOS",
+        "applicationCategory": "LifestyleApplication",
+        "description": "Track what you've done, not what you need to do. A mindful activity tracker.",
+        "url": "{{ site.url }}{{ site.baseurl }}/",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+    {% elsif page.layout == "post" %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": {{ page.title | jsonify }},
+        "description": {{ page.description | jsonify }},
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+        "author": {
+            "@type": "Organization",
+            "name": "Brake Networks"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Brake Networks"
+        }
+    }
+    </script>
+    {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
