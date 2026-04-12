@@ -24,7 +24,10 @@ Some people use a single task. Others create a few:
 - **Cramps** — Log when they happen, see if there's a pattern
 - **Migraine** — Track cycle-related headaches
 
-Each one gives you a simple, private record with average intervals and a full history.
+Each one gives you a simple, private record with average intervals and a full history. Track all four and you'll start to see how they relate — maybe your migraines consistently show up two days before your period, or cramps cluster on the same weeks as PMS. The heatmap comparison view lets you overlay multiple tasks on the same calendar so the patterns are obvious at a glance.
+
+<!-- TODO: Add screenshot of heatmap comparing Period, PMS, Cramps, Migraine -->
+<!-- <img src="/assets/images/blog/period-heatmap.png" alt="Heatmap comparing cycle-related tasks in LastDid" style="max-width: 300px; margin: 24px auto; display: block; border-radius: 20px; box-shadow: 0 8px 28px rgba(0,0,0,0.08);"> -->
 
 ## What LastDid doesn't do
 
