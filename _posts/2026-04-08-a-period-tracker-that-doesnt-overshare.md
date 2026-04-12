@@ -15,12 +15,6 @@ LastDid stores everything on your device and only on your device. There are no u
 
 This isn't a privacy policy promise. It's an architectural fact.
 
-## How it works
-
-Create a task called "Period" (or whatever you prefer — the app doesn't impose labels). Tap it when your period starts. That's it.
-
-Over time, you'll see your pattern: "You usually log this every ~28 days" or whatever your cycle actually is. Last logged 32 days ago? That's just information — no alarm bells, no "late" warnings, no assumptions about what it means.
-
 ## What you can track
 
 Some people use a single task. Others create a few:
