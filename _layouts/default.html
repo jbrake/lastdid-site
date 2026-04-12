@@ -42,6 +42,14 @@
     </script>
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XYL9029F7X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XYL9029F7X');
+    </script>
 </head>
 <body>
     {% include header.html %}
