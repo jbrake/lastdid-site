@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="help-topic">
+    <nav class="help-breadcrumb">
+        <a href="{{ '/help' | relative_url }}">Help</a>
+        <span class="sep">/</span>
+        <span>{{ page.title }}</span>
+    </nav>
+
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}
+    <p class="topic-summary">{{ page.summary }}</p>
+    {% endif %}
+
+    <div class="help-topic-content">
+        {{ content }}
+    </div>
+
+    <div class="help-back">
+        <a href="{{ '/help' | relative_url }}">&larr; All help topics</a>
+    </div>
+</article>
