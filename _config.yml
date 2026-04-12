@@ -1,7 +1,7 @@
 title: LastDid
 description: "Track what you've done, not what you need to do. A mindful activity tracker for iOS and Android."
-url: "https://jbrake.github.io"
-baseurl: "/lastdid-site"
+url: "https://lastdid.brakenetworks.com"
+baseurl: ""
 
 # SEO
 tagline: "Mindful activity tracking"

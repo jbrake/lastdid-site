@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jbrake.github.io/lastdid-site/sitemap.xml
+Sitemap: https://lastdid.brakenetworks.com/sitemap.xml
