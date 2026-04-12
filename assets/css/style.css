@@ -362,6 +362,138 @@ img { max-width: 100%; height: auto; }
 .blog-page h1 { font-size: 2rem; margin-bottom: 8px; }
 .blog-page .subtitle { color: var(--color-text-light); margin-bottom: 32px; }
 
+/* ---- Help Pages ---- */
+.help-page { max-width: var(--max-width-wide); margin: 0 auto; padding: 48px 24px; }
+.help-page h1 { font-size: 2rem; margin-bottom: 8px; }
+.help-page .subtitle { color: var(--color-text-light); margin-bottom: 40px; }
+
+.help-category { margin-bottom: 40px; }
+.help-category h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.help-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.help-card {
+    background: var(--color-bg-soft);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.2s;
+    display: block;
+    color: inherit;
+}
+.help-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    text-decoration: none;
+}
+.help-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+    color: var(--color-text);
+}
+.help-card p {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Help topic content components */
+.guide-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+.guide-row .guide-icon {
+    flex-shrink: 0;
+    width: 24px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.guide-row .guide-icon.green { color: var(--color-accent); }
+.guide-row .guide-icon.blue { color: var(--color-link); }
+.guide-row .guide-icon.muted { color: var(--color-text-muted); }
+.guide-row p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+}
+
+.freshness-table {
+    background: var(--color-bg-soft);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 8px 0;
+}
+.freshness-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 0;
+}
+.freshness-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.freshness-row .label {
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+.freshness-row .desc {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+}
+
+.philosophy-table {
+    background: var(--color-bg-soft);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 8px 0;
+}
+.philosophy-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 0;
+    font-size: 0.95rem;
+}
+.philosophy-row .wrong {
+    color: var(--color-text-muted);
+    text-decoration: line-through;
+    min-width: 130px;
+}
+.philosophy-row .arrow {
+    color: var(--color-text-muted);
+}
+.philosophy-row .right {
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.help-back {
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.9rem;
+}
+.help-back a { color: var(--color-text-muted); }
+.help-back a:hover { color: var(--color-text); }
+
 /* ---- Responsive ---- */
 @media (max-width: 640px) {
     .hero h1 { font-size: 2.2rem; }

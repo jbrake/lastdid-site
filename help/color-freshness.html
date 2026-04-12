@@ -1,0 +1,46 @@
+---
+layout: page
+title: "Color freshness"
+description: "Why your task colors gently fade over time in LastDid."
+---
+
+<p>Task tile colors gently fade the longer it's been since you logged that activity. It's a subtle visual cue — not a warning.</p>
+
+<h2>The four levels</h2>
+
+<div class="freshness-table">
+    <div class="freshness-row">
+        <span class="freshness-dot" style="background: #4CAF50;"></span>
+        <span class="label">Vibrant</span>
+        <span class="desc">— Last week or sooner</span>
+    </div>
+    <div class="freshness-row">
+        <span class="freshness-dot" style="background: rgba(76, 175, 80, 0.7);"></span>
+        <span class="label">Slightly faded</span>
+        <span class="desc">— 1-2 weeks ago</span>
+    </div>
+    <div class="freshness-row">
+        <span class="freshness-dot" style="background: rgba(76, 175, 80, 0.5);"></span>
+        <span class="label">More faded</span>
+        <span class="desc">— 2-4 weeks ago</span>
+    </div>
+    <div class="freshness-row">
+        <span class="freshness-dot" style="background: rgba(76, 175, 80, 0.3);"></span>
+        <span class="label">Quite faded</span>
+        <span class="desc">— Over a month ago</span>
+    </div>
+</div>
+
+<h2>Why a fade and not a warning</h2>
+
+<p>The fade is desaturation, not a color change. There's no red, no alarm icon, no "you've fallen behind" framing. The point is to help you notice things you used to do — not to make you feel bad about not doing them.</p>
+
+<h2>A couple of edge cases</h2>
+
+<p>Tasks with a custom interval set keep their icon at full color — the tile's gentle glow handles the visual cue instead, so you're not getting two signals at once.</p>
+
+<p>Tasks you've never logged also show as gently faded, so they're easy to spot in your list.</p>
+
+<div class="help-back">
+    <a href="{{ '/help' | relative_url }}">&larr; Back to Help</a>
+</div>
