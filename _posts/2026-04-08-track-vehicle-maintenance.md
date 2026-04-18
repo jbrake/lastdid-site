@@ -7,7 +7,7 @@ date: 2026-04-03
 
 "When was my last oil change?" It's one of those questions that shouldn't be hard to answer, but usually is. You know it was a few months ago. Maybe. Was it before or after that road trip? You check the windshield sticker but it fell off. You dig through your email for a receipt.
 
-Vehicle maintenance follows a frustrating pattern: important enough to matter, infrequent enough to forget, and just complicated enough that most tracking systems feel like overkill.
+Vehicle maintenance follows a frustrating pattern: important enough to matter, infrequent enough to forget, and just complicated enough that most tracking systems feel like overkill. ([Home maintenance has the same problem]({% post_url 2026-04-08-home-maintenance-without-spreadsheets %}) — air filters, gutters, smoke detectors all sit in the same forgotten-but-important category.)
 
 ## The sticker-on-the-windshield problem
 
@@ -35,7 +35,7 @@ LastDid keeps it simple. Create tasks for the maintenance you care about. Tap wh
 
 ## Multiple vehicles
 
-If your household has more than one car, just prefix the task: "Civic — Oil Change" and "Truck — Oil Change." Each vehicle gets its own history and patterns.
+If your household has more than one car, just prefix the task: "Civic — Oil Change" and "Truck — Oil Change." Each vehicle gets its own history and patterns. (The same prefix trick works for [pets in a multi-pet household]({% post_url 2026-04-08-track-pet-medications-and-vet-visits %}) — "Luna — Flea Meds" and "Max — Flea Meds.")
 
 ## At the mechanic
 

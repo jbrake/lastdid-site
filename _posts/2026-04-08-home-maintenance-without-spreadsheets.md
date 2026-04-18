@@ -15,7 +15,7 @@ The problem isn't that you don't care. It's that there's no natural way to remem
 
 You've probably tried the responsible approach: a spreadsheet, a calendar event, a note on the fridge. These work for about two months before you stop updating them.
 
-Calendar reminders are even worse for home maintenance. "Change air filter" popping up on a random Tuesday doesn't mean you'll have the filter on hand, or that you'll be home, or that it won't get snoozed into oblivion.
+Calendar reminders are even worse for home maintenance. "Change air filter" popping up on a random Tuesday doesn't mean you'll have the filter on hand, or that you'll be home, or that it won't get snoozed into oblivion. The same problem applies to [vehicle maintenance like oil changes]({% post_url 2026-04-08-track-vehicle-maintenance %}) and [pet medications]({% post_url 2026-04-08-track-pet-medications-and-vet-visits %}) — anything recurring but not strictly scheduled.
 
 ## Just track when you did it
 

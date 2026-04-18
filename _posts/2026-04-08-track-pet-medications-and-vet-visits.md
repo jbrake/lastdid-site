@@ -11,7 +11,7 @@ Pet care involves a lot of recurring tasks that don't happen on neat schedules. 
 
 ## The problem with reminders
 
-You could set calendar reminders, but pet care doesn't follow a strict calendar. Flea medication is "every 30 days" but you gave it on the 3rd last month and the 7th this month and now your calendar reminder is out of sync. The vet said "come back in about a year" but you can't remember if that was last January or last March.
+You could set calendar reminders, but pet care doesn't follow a strict calendar. Flea medication is "every 30 days" but you gave it on the 3rd last month and the 7th this month and now your calendar reminder is out of sync. The vet said "come back in about a year" but you can't remember if that was last January or last March. ([Vehicle maintenance has the same drift problem]({% post_url 2026-04-08-track-vehicle-maintenance %}) — calendar reminders for oil changes that never quite line up with reality.)
 
 ## Just log it when you do it
 

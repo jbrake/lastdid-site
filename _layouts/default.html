@@ -63,19 +63,48 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": {{ page.title | jsonify }},
-        "description": {{ page.description | jsonify }},
-        "datePublished": "{{ page.date | date_to_xmlschema }}",
-        "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
-        "author": {
-            "@type": "Organization",
-            "name": "Brake Networks"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Brake Networks"
-        }
+        "@graph": [
+            {
+                "@type": "Article",
+                "headline": {{ page.title | jsonify }},
+                "description": {{ page.description | jsonify }},
+                "datePublished": "{{ page.date | date_to_xmlschema }}",
+                "url": "{{ site.url }}{{ page.url }}",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Brake Networks",
+                    "url": "https://brakenetworks.com"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Brake Networks",
+                    "url": "https://brakenetworks.com"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "{{ site.url }}/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "{{ site.url }}/blog/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": {{ page.title | jsonify }},
+                        "item": "{{ site.url }}{{ page.url }}"
+                    }
+                ]
+            }
+        ]
     }
     </script>
     {% endif %}

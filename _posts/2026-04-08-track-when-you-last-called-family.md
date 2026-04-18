@@ -7,7 +7,7 @@ date: 2026-04-08
 
 Life gets busy. Between work, errands, and the thousand small things that fill a week, it's easy to realize — with a pang of guilt — that you haven't called your mom in three weeks. Or that you missed your friend's birthday because you lost track of time.
 
-Most "solution" apps make this worse. They add your family to a todo list, set reminders that buzz at inconvenient times, and turn personal relationships into tasks to check off. That doesn't feel right.
+Most "solution" apps make this worse. They add your family to a todo list, set reminders that buzz at inconvenient times, and turn personal relationships into tasks to check off. That doesn't feel right — and it's [why LastDid isn't a todo app]({% post_url 2026-04-08-why-lastdid-isnt-a-todo-app %}).
 
 ## A different approach
 
@@ -36,7 +36,7 @@ LastDid takes a fundamentally different stance. It provides awareness, not judgm
 
 Over time, LastDid learns your natural rhythms. "You usually call every ~10 days" is an observation about your past behavior, not a goal you need to hit. If life gets hectic and it stretches to 20 days, that's just information. No streak broken, no failure recorded.
 
-Some people discover surprising things about their habits. You might realize you call one parent more than the other, or that you see certain friends seasonally. These are insights, not judgments — and they're yours to act on however you choose.
+Some people discover surprising things about their habits. You might realize you call one parent more than the other, or that you see certain friends seasonally. These are insights, not judgments — and they're yours to act on however you choose. (The same approach works for [your exercise patterns]({% post_url 2026-04-08-track-your-exercise-without-guilt %}) and other rhythms that don't belong on a todo list.)
 
 ## Private by design
 

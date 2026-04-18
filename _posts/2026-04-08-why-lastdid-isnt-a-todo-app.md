@@ -15,8 +15,8 @@ Todo apps work great for actual tasks — things with deadlines, dependencies, a
 
 But a huge category of life activities don't fit this model:
 
-- When did I last call my parents?
-- How often am I really exercising?
+- [When did I last call my parents?]({% post_url 2026-04-08-track-when-you-last-called-family %})
+- [How often am I really exercising?]({% post_url 2026-04-08-track-your-exercise-without-guilt %})
 - When was my last date night?
 - How long since I cleaned the gutters?
 

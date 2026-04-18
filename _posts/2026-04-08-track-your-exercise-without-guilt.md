@@ -21,7 +21,7 @@ LastDid doesn't care about your fitness goals. It doesn't know if you wanted to 
 
 When you exercise regularly, LastDid shows that pattern: "You usually exercise every ~3 days." When you take a week off for vacation, nothing breaks. No streak counter resets to zero. No achievement lost. Your history still shows all the workouts you've done.
 
-This matters more than it might seem. Streak-based motivation is fragile — it works until it doesn't, and when it fails, it often takes your motivation with it. Pattern awareness is resilient. It gives you information without creating pressure.
+This matters more than it might seem. Streak-based motivation is fragile — it works until it doesn't, and when it fails, it often takes your motivation with it. Pattern awareness is resilient. It gives you information without creating pressure. (This is the [philosophy behind LastDid]({% post_url 2026-04-08-why-lastdid-isnt-a-todo-app %}) more broadly — awareness instead of obligation.)
 
 ## What people track
 
@@ -46,4 +46,4 @@ You might notice you exercise more on weekends. Or that you have a natural rhyth
 
 LastDid doesn't sync with health platforms, doesn't share your data, and doesn't report to anyone. Your exercise patterns are private. There's no social feed, no leaderboard, no "share your achievement" prompts.
 
-For something as personal as your relationship with exercise, that privacy matters.
+For something as personal as your relationship with exercise, that privacy matters. The same architectural privacy applies to [tracking sensitive health data like menstrual cycles]({% post_url 2026-04-08-a-period-tracker-that-doesnt-overshare %}) — your data physically cannot be accessed by anyone but you, because it never leaves your phone.

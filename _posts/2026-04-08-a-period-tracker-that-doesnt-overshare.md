@@ -37,7 +37,7 @@ It's a simple log of when things happened, with pattern awareness built in. For 
 
 ## Why simple matters
 
-Dedicated period tracking apps often collect far more data than necessary — mood, symptoms, sexual activity, medications, weight. Each data point is another piece of sensitive information sitting on someone else's server.
+Dedicated period tracking apps often collect far more data than necessary — mood, symptoms, sexual activity, medications, weight. Each data point is another piece of sensitive information sitting on someone else's server. This is part of [why LastDid isn't a todo app]({% post_url 2026-04-08-why-lastdid-isnt-a-todo-app %}) — it's a deliberately minimal log, not a data-collection product.
 
 LastDid asks for nothing except a tap when you want to log something. No surveys, no symptom questionnaires, no daily check-ins. Just a timestamp, on your device, under your control.
 
