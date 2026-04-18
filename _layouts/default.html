@@ -8,17 +8,55 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "LastDid",
-        "operatingSystem": "iOS",
-        "applicationCategory": "LifestyleApplication",
-        "description": "Track what you've done, not what you need to do. A mindful activity tracker.",
-        "url": "{{ site.url }}{{ site.baseurl }}/",
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        }
+        "@graph": [
+            {
+                "@type": "MobileApplication",
+                "@id": "{{ site.url }}/#app",
+                "name": "LastDid",
+                "alternateName": "LastDid by Brake Networks",
+                "operatingSystem": "iOS 16+",
+                "applicationCategory": ["LifestyleApplication", "ProductivityApplication"],
+                "description": "A calm, mindful activity tracker for iOS. Track what you've done, not what you need to do — no guilt, no nagging, just gentle awareness of life's rhythms.",
+                "url": "{{ site.url }}/",
+                "downloadUrl": "https://apps.apple.com/us/app/lastdid/id6759917609",
+                "installUrl": "https://apps.apple.com/us/app/lastdid/id6759917609",
+                "datePublished": "2026-04-14",
+                "image": "{{ site.url }}/assets/images/og-default.png",
+                "screenshot": [
+                    "{{ site.url }}/assets/images/tasks-grid.png",
+                    "{{ site.url }}/assets/images/history.png",
+                    "{{ site.url }}/assets/images/heatmap-month.png",
+                    "{{ site.url }}/assets/images/folders.png"
+                ],
+                "author": { "@id": "{{ site.url }}/#org" },
+                "publisher": { "@id": "{{ site.url }}/#org" },
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD",
+                    "availability": "https://schema.org/InStock"
+                }
+            },
+            {
+                "@type": "Organization",
+                "@id": "{{ site.url }}/#org",
+                "name": "Brake Networks",
+                "url": "https://brakenetworks.com",
+                "logo": "{{ site.url }}/assets/images/og-default.png",
+                "sameAs": [
+                    "https://apps.apple.com/us/app/lastdid/id6759917609",
+                    "https://github.com/jbrake"
+                ]
+            },
+            {
+                "@type": "WebSite",
+                "@id": "{{ site.url }}/#website",
+                "url": "{{ site.url }}/",
+                "name": "LastDid",
+                "publisher": { "@id": "{{ site.url }}/#org" },
+                "inLanguage": "en"
+            }
+        ]
     }
     </script>
     {% elsif page.layout == "post" %}
